@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\DB\Adapter\SqlVersionProvider">
+        <arguments>
+            <argument name="supportedVersionPatterns" xsi:type="array">
+                <item name="MariaDB-(10.2-10.6)" xsi:type="string">^10\.[2-6]\.</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
+
