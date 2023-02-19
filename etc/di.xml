@@ -5,7 +5,7 @@
             <argument name="supportedVersionPatterns" xsi:type="array">
                 <item name="MySQL-8" xsi:type="string">^8\.0\.</item>
                 <item name="MySQL-5.7" xsi:type="string">^5\.7\.</item>
-                <item name="MariaDB-(10.2-10.9)" xsi:type="string">^10\.[2-9]\.</item>
+                <item name="MariaDB-(10.2-10.11)" xsi:type="string">^10\.[2-11]\.</item>
             </argument>
         </arguments>
     </type>
