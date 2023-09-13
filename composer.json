@@ -2,7 +2,7 @@
     "name": "reessolutions/db-override",
     "description": "A module to enable experimental mariadb 10.5 & 10.6 support before offical support is available.",
     "type": "magento2-module",
-    "version": "1.0.4",
+    "version": "1.0.6",
     "minimum-stability": "stable",
     "license": "gpl-3.0",
     "authors": [
