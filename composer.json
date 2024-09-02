@@ -1,8 +1,8 @@
 {
-    "name": "reessolutions/db-override",
-    "description": "A module to enable experimental mariadb 10.5 & 10.6 support before offical support is available.",
+    "name": "dlabsnl/db-override",
+    "description": "A module to enable experimental MariaDB 10.5, 10.6, and 10.11.8 support before official support is available.",
     "type": "magento2-module",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "minimum-stability": "stable",
     "license": "gpl-3.0",
     "authors": [
@@ -14,14 +14,14 @@
         }
     ],
     "require": {
-        "php": "~7.2.0 || ~7.3.0 || ~7.4.0 || ~8.1.0 || ~8.2.0"
+        "php": "~7.2.0 || ~7.3.0 || ~7.4.0 || ~8.1.0 || ~8.2.0 || ~8.3.0"
     },
     "autoload": {
         "files": [
             "registration.php"
         ],
         "psr-4": {
-            "ReesSolutions\\DBOverride\\": ""
+            "Dlabsnl\\DBOverride\\": ""
         }
     }
 }
