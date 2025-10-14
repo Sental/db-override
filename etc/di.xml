@@ -1,11 +1,12 @@
-<?xml version="1.0"?>
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <type name="Magento\Framework\DB\Adapter\SqlVersionProvider">
         <arguments>
             <argument name="supportedVersionPatterns" xsi:type="array">
                 <item name="MySQL-8" xsi:type="string">^8\.[0-1]\.</item>
                 <item name="MySQL-5.7" xsi:type="string">^5\.7\.</item>
                 <item name="MariaDB-(10.2-10.11)" xsi:type="string">^10\.([2-9]|10|11)\.</item>
+                <item name="MariaDB-11.x" xsi:type="string">^11\.</item>
             </argument>
         </arguments>
     </type>
