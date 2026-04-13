@@ -16,7 +16,7 @@ Now available via https://packagist.org/
 #### Installation
 
 - Require the Module
-  `composer require reessolutions/db-override:`
+  `composer require reessolutions/db-override`
 
 #### Configuration
 
